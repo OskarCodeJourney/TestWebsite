@@ -18,3 +18,4 @@ function showNavigation() {
 	nav.classList.toggle('nav-show');
 }
 menuBtn.addEventListener('click', showNavigation);
+menuBtn.addEventListener('touchstart', showNavigation);
