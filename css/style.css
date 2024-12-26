@@ -25,6 +25,7 @@ body {
   top: 15px;
   right: 15px;
   z-index: 2;
+  cursor: pointer;
 }
 .main .burger-menu:hover .burger-bars::before,
 .main .burger-menu:hover .burger-bars::after {
