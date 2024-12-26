@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 }
 .main .burger-menu {
   position: fixed;
-  padding: 3em;
+  padding: 2.5em;
   top: 15px;
   right: 15px;
   z-index: 2;
@@ -33,10 +34,10 @@ body {
 }
 .main .burger-menu .burger-bars {
   position: absolute;
-  width: 80%;
+  width: 70%;
   top: 20%;
   left: 10%;
-  height: 7px;
+  height: 5px;
   border-radius: 8px;
   background-color: #fff;
   z-index: 3;
@@ -44,22 +45,22 @@ body {
 .main .burger-menu .burger-bars::before {
   position: absolute;
   content: "";
-  top: 25px;
+  top: 20px;
   right: 0;
   border-radius: 8px;
   width: 60%;
-  height: 7px;
+  height: 5px;
   background-color: #fff;
   transition: width 0.3s;
 }
 .main .burger-menu .burger-bars::after {
   position: absolute;
   content: "";
-  top: 50px;
+  top: 40px;
   right: 0;
   border-radius: 8px;
   width: 40%;
-  height: 7px;
+  height: 5px;
   background-color: #fff;
   transition: width 0.3s 0.1s;
 }
@@ -103,7 +104,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 .main .header .header-box .header-title .header-span {
   position: relative;
@@ -133,7 +134,7 @@ body {
   padding: 0 1em;
   margin-top: 20px;
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .main .header .fa-arrow-down {
   position: relative;
